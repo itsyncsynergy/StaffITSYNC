@@ -312,4 +312,6 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
+//adding support for wordpress to codeigniter
+require_once FCPATH.'wp-load.php';
 require_once BASEPATH.'core/CodeIgniter.php';
